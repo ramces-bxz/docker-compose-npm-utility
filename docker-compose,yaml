@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  node:
+    image: ramces24/node_utility
+    volumes:
+      - ./:/app
